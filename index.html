@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modeling and Enhancing IoT Traffic Management in WiFi Networks</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Modeling and Enhancing IoT Traffic Management in WiFi Networks</h1>
+        
+        <!-- Objectives Box -->
+        <div class="box">
+            <h3>Simulator: NS-3</h3>
+            <p><strong>Objectives:</strong></p>
+            <ul>
+                <li>Setting up Environment</li>
+                <li>Normal Routing Performance</li>
+                <li>Equal Bandwidth Distribution</li>
+                <li>Reducing Latency</li>
+                <li>Maintain Stable Performance</li>
+            </ul>
+        </div>
+
+        <!-- Buttons with Sections -->
+        <button id="nodeCreationButton">Node Creation</button>
+        <div id="nodeCreationSection" class="hidden box">
+            <h2>Node Creation Input</h2>
+            <p><strong>nCsma:</strong> Number of extra CSMA nodes/devices to be created.</p>
+            <p><strong>nWifi:</strong> Number of Wi-Fi STA devices to be created.</p>
+            <p><strong>verbose:</strong> Enables logging for echo applications if set to true.</p>
+            <p><strong>tracing:</strong> Enables pcap tracing if set to true, which logs packet-level data in PCAP format.</p>
+            <p><strong>asciitracing:</strong> Enables ASCII tracing if set to true, which logs data in a human-readable ASCII format.</p>
+
+            <h2>Output Images</h2>
+            <div id="nodeImages">
+                <img src="Screenshot 2024-11-28 185827.png" alt="Node Creation Image 1">
+                <p class="image-label">Image 1: CSMA Nodes Overview</p>
+                <img src="Screenshot 2024-11-28 185834.png" alt="Node Creation Image 2">
+                <p class="image-label">Image 2: Wi-Fi STA Devices</p>
+                <img src="Screenshot 2024-11-28 185848.png" alt="Node Creation Image 3">
+                <p class="image-label">Image 3: Combined Node Topology</p>
+            </div>
+        </div>
+
+        <button id="routingPerformanceButton">Routing Performance</button>
+        <div id="content" class="hidden box">
+            <div class="info">
+                <h3>Title:</h3>
+                <p><strong>MANET Routing Protocol Performance Comparison</strong></p>
+
+                <h3>Purpose:</h3>
+                <p>The code simulates and evaluates the performance of various routing protocols in Mobile Ad-Hoc Networks (MANETs) using the NS-3 simulator. It compares protocols like AODV, OLSR, DSDV, and DSR based on key metrics such as throughput, packet delivery ratio, and delay.</p>
+
+                <h3>Outputs:</h3>
+                <p>An image representing the MANET performance metrics will be displayed below.</p>
+                <div id="outputArea">
+                    <img src="Screenshot 2024-11-28 181831.png" alt="MANET Performance Metrics">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; Batch-13 Major Project Presentation
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>

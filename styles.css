@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f8fb;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px; /* Increased font size */
+    font-weight: bold; /* Kept it bold */
+    color: #000; /* Changed color to black */
+}
+
+.box {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #eaf2fb;
+    border: 1px solid #cce0f5;
+    border-radius: 10px;
+}
+.box h3 {
+    margin: 0 0 10px;
+    color: #004080;
+}
+.box ul {
+    padding-left: 20px;
+    margin: 0;
+}
+.box ul li {
+    margin-bottom: 8px;
+}
+
+/* Buttons */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #007BFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 20px; /* Added spacing */
+}
+button:hover {
+    background: #0056b3;
+}
+
+/* Images */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Section */
+.info {
+    margin-top: 20px;
+}
+.info h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+.info p {
+    line-height: 1.6;
+}
+.hidden {
+    display: none;
+}
+
+/* Image Labels */
+.image-label {
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+    margin-top: -10px;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
